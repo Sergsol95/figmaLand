@@ -1,0 +1,55 @@
+.socials {
+    max-width: 26.4rem;
+
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &__description {
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    &__img {
+        margin-right: 2rem;
+    }
+
+    
+    &__section_contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        @media all and (max-width: $screen_phablet-small) {
+            flex-direction: column-reverse;
+        }
+
+    }
+
+    &__icon {
+        margin-right: 2rem;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    &__info {
+        margin-bottom: 6rem;
+    }
+
+    &__external {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__external_contact {
+        @media all and (max-width: $screen_phablet-small) {
+            margin-bottom: 8rem;
+        }
+    }
+}

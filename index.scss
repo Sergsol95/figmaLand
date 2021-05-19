@@ -1,0 +1,44 @@
+@import "./src/styles/fonts";
+@import "./src/styles/variables";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+@import "./src/styles/btn";
+@import "./src/styles/form";
+@import "./src/styles/icon";
+@import "./src/styles/page";
+@import "./src/styles/header";
+@import "./src/styles/info";
+@import "./src/styles/section";
+@import "./src/styles/socials";
+@import "./src/styles/footer";

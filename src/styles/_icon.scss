@@ -1,0 +1,39 @@
+.icon {
+    cursor: pointer;
+
+    &_burger {
+
+        display: flex;
+        flex-direction: column;
+        width: 2rem;
+        height: 0.3rem;
+        background-color: $white;
+        border-radius: 0;
+        padding: 0;
+        position: relative;
+        min-width: 0;
+        min-height: 0;
+
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            height: 0.3rem;
+            background-color: $white;
+            position: absolute;
+            left: 0;
+        }
+
+        &::before {
+            top: -6px;
+            left: -5.9px;
+            width: 2.6rem;
+        }
+
+        &::after {
+            top: 6px;
+            width: 1.3rem;
+            left: 7px;
+        }
+    }
+}

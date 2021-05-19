@@ -1,0 +1,92 @@
+.form {
+    display: flex;
+
+
+    &__input {
+        font-weight: 300;
+        font-size: 1.6rem;
+        padding: 1.2rem 1.5rem;
+        border: none;
+        border-radius: 3px;
+        min-height: 5.1rem;
+        display: flex;
+        outline-width: 0;
+
+
+        &::placeholder {
+            color: black;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            display: flex;
+        }
+    }
+
+
+    &__input_header {
+        padding: 1.2rem 3.6rem;
+        border-radius: 3.9rem;
+        min-width: 27.3rem;
+        margin-right: 1.2rem;
+    }
+
+    &_news {
+        display: flex;
+        flex-direction: column;
+        min-width: 35.3rem;
+        min-height: 5.4rem;
+
+        @media all and (max-width: $screen_phone) {
+            min-width: 27.3rem;
+        }
+    }
+
+    &_header {
+        @media all and (max-width: $screen_phablet-big) {
+            display: none;
+        }
+    }
+
+    &__input_news {
+        padding: 1.2rem 3.6rem;
+        border-radius: 3.9rem;
+        min-width: 27.3rem;
+        margin-bottom: 1.2rem;
+    }
+
+    &_contact {
+        flex-direction: column;
+    }
+
+    &__input_contact {
+        padding: 1.2rem 1.6rem;
+        border-radius: 3.9rem;
+        min-width: 31.8rem;
+        margin-bottom: 1.2rem;
+        background-color: $gray;
+
+        @media all and (max-width: $screen_phablet) {
+            min-width: 28rem;
+        }
+
+        @media all and (max-width: $screen_phone) {
+            min-width: 21rem;
+        }
+    }
+
+    &__input_wide {
+        min-height: 12.1rem;
+        border-radius: 0;
+        position: relative;
+
+        &::placeholder {
+            color: black;
+            position: absolute;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            display: flex;
+        }
+    }
+
+}

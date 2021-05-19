@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 144rem;
+    position: relative;
+    background-color: white;
+    z-index: 0;
+}
