@@ -13,7 +13,7 @@
     <div class="page">
         <header class="header">
             <img src="/src/img/head-img.png" srcset="/src/img/head-img@2x.png 2x" alt="" class="header__img">
-            <img src="/src/img/mobile-back-head.png" srcset="mobile-back-head@2x.png 2x" alt=""
+            <img src="/src/img/mobile-back-head.png" srcset="/src/img/mobile-back-head@2x.png 2x" alt=""
                 class="header__img-mobile">
             <img src="/src/img/figma-logo.png" alt="" class="header__logo">
             <div class="header__text">
@@ -35,12 +35,12 @@
             </div>
         </header>
         <section class="info">
-            <button class="btn btn_secondary btn_third btn_third_info">Try For Free</button>
             <img src="./src/img/browser-img.png" alt="" class="info__img">
             <div class="info__text">
                 <h2 class="info__title">We focus on ergonomics</h2>
                 <p class="info__description">Most calendars are designed for teams.
                     Slate is designed for freelancers</p>
+                <img src="./src/img/browser-img-mobile.png" alt="" class="info__img-mobile">
                 <button class="btn btn_secondary btn_secondary_info">Try For Free</button>
             </div>
         </section>
@@ -54,8 +54,10 @@
             <div class="section__cards section__cards_features">
                 <div class="section__card section__card_features">
                     <div class="section__card-top">
-                        <img src="./src/img/restaurant-menu-1.svg" alt="" class="section__card-img">
-                        <h3 class="section__card-title">The best products
+                        <div class="section__card-icon">
+                            <img src="./src/img/restaurant-menu-1.svg" alt="" class="section__card-img section__card-img_features">
+                        </div>
+                        <h3 class="section__card-title section__card-title_features">The best products
                             start with Sketch</h3>
                     </div>
                     <p class="section__card-description">Slate helps you see how many
@@ -64,8 +66,10 @@
                 </div>
                 <div class="section__card section__card_features">
                     <div class="section__card-top">
-                        <img src="./src/img/restaurant-menu-2.svg" alt="" class="section__card-img">
-                        <h3 class="section__card-title">Fastest way to
+                        <div class="section__card-icon">
+                            <img src="./src/img/restaurant-menu-2.svg" alt="" class="section__card-img section__card-img_features">
+                        </div>
+                        <h3 class="section__card-title section__card-title_features">Fastest way to
                             organize</h3>
                     </div>
                     <p class="section__card-description">Slate helps you see how many
@@ -74,8 +78,10 @@
                 </div>
                 <div class="section__card section__card_features">
                     <div class="section__card-top">
-                        <img src="./src/img/restaurant-menu-3.svg" alt="" class="section__card-img">
-                        <h3 class="section__card-title">Work better
+                        <div class="section__card-icon">
+                            <img src="./src/img/restaurant-menu-3.svg" alt="" class="section__card-img section__card-img_features">
+                        </div>
+                        <h3 class="section__card-title section__card-title_features">Work better
                             together</h3>
                     </div>
                     <p class="section__card-description">Slate helps you see how many
@@ -85,13 +91,13 @@
             </div>
         </section>
         <section class="section section_subscribe">
-            <div class="section__text">
+            <div class="section__text section__text_subscribe">
                 <h2 class="section__title section__title_subscribe">Lightning fast
                     prototyping </h2>
                 <p class="section__description">Most calendars are designed for teams.
                     Slate is designed for freelancers</p>
             </div>
-            <button class="btn btn_secondary btn_third">Try For Free</button>
+            <button class="btn btn_secondary btn_main">Try For Free</button>
             <img src="./src/img/macbook.png" alt="" class="section__img section__img_subscribe">
         </section>
         <section class="section section_news">
@@ -104,7 +110,7 @@
             </div>
             <form class="form form_news" action="">
                 <input type="text" placeholder="Your Email" class="form__input form__input_news">
-                <button class="btn btn_fourth btn_higher">Subscribe</button>
+                <button class="btn btn_additional btn_higher">Subscribe</button>
             </form>
         </section>
         <section class="section section_partners">
@@ -187,7 +193,7 @@
                         the month and year. </p>
                 </div>
             </div>
-            <button class="btn btn_secondary btn_third">Try For Free</button>
+            <button class="btn btn_secondary btn_main">Try For Free</button>
         </section>
         <section class="section section_testemonials">
             <div class="section__text">
@@ -205,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn_secondary btn_third btn_wide">More Testimonials</button>
+            <button class="btn btn_secondary btn_main btn_wide">More Testimonials</button>
         </section>
         <section class="section section_pricing">
             <div class="section__text">
@@ -228,7 +234,7 @@
                             <p class="section__card-poscript">Per Month</p>
                         </div>
                     </div>
-                    <button class="btn btn_third btn_card">Order Now</button>
+                    <button class="btn btn_main btn_card">Order Now</button>
                 </div>
                 <div class="section__card section__card_pricing">
                     <div class="section__card-top section__card-top_pricing">
@@ -244,7 +250,7 @@
                             <p class="section__card-poscript">Per Month</p>
                         </div>
                     </div>
-                    <button class="btn btn_third btn_card">Order Now</button>
+                    <button class="btn btn_main btn_card">Order Now</button>
                 </div>
                 <div class="section__card section__card_pricing section__card_premimum">
                     <img src="./src/img/Desktop-back.png" alt="" class="section__img section__img_pricing">
@@ -261,7 +267,7 @@
                             <p class="section__card-poscript">Per Month</p>
                         </div>
                     </div>
-                    <button class="btn btn_third btn_card">Order Now</button>
+                    <button class="btn btn_main btn_card">Order Now</button>
                 </div>
             </div>
         </section>
@@ -272,15 +278,13 @@
                     Slate is designed for freelancers</p>
             </div>
             <div class="section__container">
-                <div class="section__forms-list section__forms-list_contact">
-                    <form class="form form_contact" action="">
-                        <input type="text" placeholder="Your Name" class="form__input form__input_contact">
-                        <input type="text" placeholder="Your Email" class="form__input form__input_contact">
-                        <input type="text" placeholder="Your Message"
-                            class="form__input form__input_wide form__input_contact">
-                        <button class="btn btn_fourth">Subscribe</button>
-                    </form>
-                </div>
+                <form class="form form_contact form__list form__list_contact" action="">
+                    <input type="text" placeholder="Your Name" class="form__input form__input_contact">
+                    <input type="text" placeholder="Your Email" class="form__input form__input_contact">
+                    <textarea type="text" placeholder="Your Message"
+                        class="form__input form__input_wide form__input_contact"></textarea>
+                    <button class="btn btn_additional">Send</button>
+                </form>
                 <div class="socials socials__section socials__section_contact">
                     <div class="socials__info">
                         <div class="socials__item">

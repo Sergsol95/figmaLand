@@ -28,11 +28,12 @@
 
     &_secondary_info {
         @media all and (max-width: $screen_phablet) {
-            display: none;
+            background-color: $blue;
+            color: $white;
         }
     }
 
-    &_third_info {
+    &_main_info {
         display: none;
 
         @media all and (max-width: $screen_phablet) {
@@ -40,12 +41,12 @@
         }
     }
 
-    &_third {
+    &_main {
         background-color: $blue;
         color: $white;
     }
 
-    &_fourth {
+    &_additional {
         min-width: 9.4rem;
         min-height: 3.5rem;
         color: $white;

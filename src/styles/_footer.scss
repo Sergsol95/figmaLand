@@ -34,7 +34,8 @@
         }
 
         @media all and (max-width: $screen_phone) {
-            width: 26.8rem;
+            max-width: 30rem;
+            width: 100%;
         }
         
     }

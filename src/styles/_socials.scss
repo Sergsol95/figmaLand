@@ -32,9 +32,12 @@
     }
 
     &__icon {
-        margin-right: 2rem;
         padding: 0.5rem;
         cursor: pointer;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
     }
 
     &__info {

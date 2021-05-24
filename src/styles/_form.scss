@@ -62,15 +62,17 @@
         padding: 1.2rem 1.6rem;
         border-radius: 3.9rem;
         min-width: 31.8rem;
-        margin-bottom: 1.2rem;
+        margin-bottom: 3rem;
         background-color: $gray;
 
         @media all and (max-width: $screen_phablet) {
-            min-width: 28rem;
+            max-width: 28rem;
+            width: 100%;
         }
 
         @media all and (max-width: $screen_phone) {
-            min-width: 21rem;
+            width: 100%;
+            min-width: 3rem;
         }
     }
 
@@ -86,6 +88,27 @@
             font-size: 1.4rem;
             line-height: 1.6rem;
             display: flex;
+        }
+    }
+
+    &__list {
+        padding: 8rem 4rem 2.5rem 4rem;
+        background-color: $white;
+    }
+
+
+    &__list_contact {
+        margin-right: 5.6rem;
+        border-radius: 2rem;
+
+        @media all and (max-width: $screen_phablet-small) {
+            margin-right: 0;
+
+        }
+
+        @media all and (max-width: $screen_phone-small) {
+            margin-right: 0;
+            padding: 4rem 2rem 1.5rem 2rem;
         }
     }
 
